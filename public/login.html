@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>登录 · 领课</title>
+    <link rel="stylesheet" href="/css/admin.css" />
+  </head>
+  <body class="login-body">
+    <section class="login-brand">
+      <p class="eyebrow">Lingke</p>
+      <h1>领课</h1>
+      <p>给培训机构用的教务后台。账号、课班、校内公告和操作记录，都在这一处处理。</p>
+    </section>
+    <section class="login-panel">
+      <form id="login-form" class="card login-card">
+        <h2>进入领课</h2>
+        <label>用户名<input id="username" name="username" value="admin" required /></label>
+        <label>密码<input id="password" name="password" type="password" value="123456" required /></label>
+        <p id="login-error" class="error" hidden></p>
+        <button type="submit">登录</button>
+        <p class="hint">初始账号 admin / 123456</p>
+      </form>
+    </section>
+    <script type="module" src="/js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c2410c"/>
+      <stop offset="1" stop-color="#9a3412"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <circle cx="80" cy="280" r="110" fill="#fdba74" opacity=".28"/>
+  <text x="48" y="150" fill="#fff7ed" font-size="42" font-family="Segoe UI, sans-serif" font-weight="700">Frontend</text>
+  <text x="48" y="200" fill="#ffedd5" font-size="22" font-family="Segoe UI, sans-serif">Tíb</text>
+</svg>

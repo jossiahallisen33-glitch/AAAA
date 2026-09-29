@@ -1,0 +1,22 @@
+{
+  "name": "lingke-ts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:server && npm run build:client",
+    "build:server": "tsc -p tsconfig.server.json && node esbuild.server.mjs",
+    "build:client": "tsc -p tsconfig.client.json",
+    "start": "npm run build && node dist/app.js",
+    "dev": "npm run build && node --watch dist/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "esbuild": "^0.25.9",
+    "typescript": "^5.9.2"
+  }
+}
